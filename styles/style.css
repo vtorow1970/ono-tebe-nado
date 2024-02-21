@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 1fr 150px 1fr;
     grid-template-rows: 105px;
-    justify-content: space-between;
     align-items: center;
     max-width: 1100px;
     padding: 92px 24px 96px;
@@ -79,6 +78,7 @@
   }
   
   .cover__title {
+    position: absolute;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -87,6 +87,7 @@
     font-weight: bold;
     font-size: 100px;
     padding-left: 100px;
+    z-index: 1;
   }
   
   .cover__image {
@@ -134,19 +135,20 @@
   
   .cover__description {
     display: flex;
-    color: #fff;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
     word-spacing: 18px;
-  }
+    }
   
   .cover__description-text {
     position: absolute;
+    color: #fff;
     margin-top: 668px;
     margin-left: 80px;
     font-weight: 400;
     font-size: 22px;
+    z-index: 1;
   }
   
   .bet-button {
