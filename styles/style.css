@@ -394,7 +394,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     list-style-type: none;
     justify-items: end;
-    margin-top: -160px;
+    margin-top: -64px;
   }
   
   .footer__social-list-item {
