@@ -6,13 +6,7 @@
     max-width: 1100px;
     padding: 92px 24px 96px;
   }
-  
-  .header__menu {
-    padding: 1px 29px 0px 23px;
-    font-size: 18px;
-    color: #000;
-  }
-  
+     
   .header__links-list {
     display: flex;
     flex-direction: row;
