@@ -9,7 +9,7 @@
   .header__links-list {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 32px;
     margin-left: 28px;
     margin-top: 4px;
   }
@@ -36,24 +36,24 @@
   
   .header__logo {
     display: flex;
-    padding-right: 5px;
+    margin-top: 4px;
   }
   
   .header__logo-image {
-    width: 148px;
-    height: 105px;
+    height: 104px;
   }
   
   .address {
-    justify-self: right;
+    justify-self: center;
     color: #000;
     font-size: 18px;
-    line-height: 21px;
-    padding: 42px 33px 43px 20px;
+    margin-left: 157px;
+    margin-top: 1px;
+    padding-top: 6px;
   }
   
   .header__address {
-    line-height: 27px;
+    line-height: 25px;
     text-underline-offset: 3px;
     font-style: normal;
   }
@@ -91,8 +91,9 @@
     display: block;
   }
   
+
   .aligned-text_right {
-    margin-top: 5px;
+    gap: 20px;
     margin-left: 532px;
     letter-spacing: 60px;
   }
@@ -137,7 +138,6 @@
   .cover__description-text {
     position: absolute;
     color: #fff;
-    margin-top: 668px;
     margin-left: 80px;
     font-weight: 400;
     font-size: 22px;
@@ -146,7 +146,6 @@
   
   .bet-button {
     position: absolute;
-    margin-top: 655px;
     margin-left: 791px;
     width: 256px;
     height: 51px;
